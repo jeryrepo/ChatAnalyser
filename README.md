@@ -1,5 +1,7 @@
 # WhatsApp Chat Analysis
 
+![SharedScreenshot](https://github.com/jeryrepo/ChatAnalyser/assets/142509067/d76efd26-cc6d-473e-b4ae-c6479fd284db)
+
 This project is designed to analyze WhatsApp chat logs. It performs data cleaning, sentiment analysis, and organizes the results in a structured format for further analysis or visualization.
 
 ## Features
