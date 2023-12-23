@@ -16,12 +16,33 @@ This project is designed to analyze WhatsApp chat logs. It performs data cleanin
 ## How to Use
 
 1. Clone this repository.
-2. Install the required libraries mentioned in requirements.txt.
+2. Install the required libraries.
 3. Run the Python script on your WhatsApp chat log.
 
-## Results
+## Dependencies
+Before running the script, ensure you have the following dependencies installed:
+- pandas
+- nltk
+- matplotlib
+- wordcloud
+- emoji
+- seaborn
 
-The script returns a pandas DataFrame with all the processed data, including the sentiment score and sentiment category for each message. The analysis is then visualized using a PowerBI dashboard.
+## Results
+- user_message: The original message with user information.
+- user: Extracted user information.
+- message: The cleaned message content.
+- date: The date of the message.
+- time: The time of the message.
+- hour: The hour of the message.
+- year: The year of the message.
+- month: The month of the message.
+- day: The day of the message.
+- minute: The minute of the message.
+- cleaned_message: The cleaned and processed message content.
+- sentiment_score: The sentiment score of the message.
+- sentiment_category: The sentiment category (positive, negative, neutral) based on the sentiment score.
+
 
 ## Contributing
 
