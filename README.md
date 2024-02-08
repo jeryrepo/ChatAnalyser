@@ -28,6 +28,12 @@ Before running the script, ensure you have the following dependencies installed:
 - emoji
 - seaborn
 
+  ### Power BI Dashboard
+1. Open Power BI.
+2. Import the cleaned DataFrame from the Python script.
+3. Utilize the pre-built visualizations in the Power BI dashboard file (`ChatAnalyserDash.pbix`) for comprehensive insights.
+4. Customize the dashboard based on your specific analysis needs.
+
 ## Results
 - user_message: The original message with user information.
 - user: Extracted user information.
