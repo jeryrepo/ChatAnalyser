@@ -6,7 +6,7 @@ This project is designed to analyze WhatsApp chat logs. It performs data cleanin
 
 ## Features
 
-- **Data Cleaning:** Handles ambiguous column names, date column handling, deals with missing date values, handles format issues, and standardizes the gender format.
+- **Data Cleaning:** Handles ambiguous column names, date column handling, dealt with missing date values, handles format issues, and standardizes the gender format.
 - **Sentiment Analysis:** Uses NLTK's Vader SentimentIntensityAnalyzer to calculate the sentiment score of each cleaned message.
 - **Data Extraction:** Extracts messages and dates from the chat log using regular expressions.
 - **Data Processing:** Creates a pandas DataFrame with the extracted data and additional columns for the user, message, date, time, hour, year, month, day, and minute.
